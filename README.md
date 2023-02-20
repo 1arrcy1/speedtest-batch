@@ -1,1 +1,1 @@
-run install-speedtest.bat on windows
+run speedtest.bat on windows
