@@ -25,10 +25,12 @@ cd ..
 cd ..
 RD /S /Q main
 del /F /Q main.zip
+cls
 GOTO start
-exit
 
 :start
 cd %appdata%\speedtest
 Powershell -executionpolicy remotesigned -File test-csv.ps1
+echo saved to downloads
+pause
 exit
