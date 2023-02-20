@@ -1,8 +1,5 @@
-# running with PowerShell 7+
-# open powershell in your terminal in this folder and type ".\test"
-
 #options
-$outputfile = ".\internetspeed.csv" #CSV file where the test results are stored
+$outputfile = "%userprofile%\downloads\internetspeed.csv" #CSV file where the test results are stored
 $testduration = 14 #in days
 $interval = 1 #wait and restart after $interval seconds
 $numberoftests = 1
