@@ -30,6 +30,7 @@ GOTO start
 
 :start
 cd %appdata%\speedtest
+cls
 Powershell -executionpolicy remotesigned -File test-csv.ps1
 echo saved to downloads
 pause
