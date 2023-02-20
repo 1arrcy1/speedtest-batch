@@ -1,5 +1,5 @@
 #options
-$outputfile = "%userprofile%\downloads\internetspeed.csv" #CSV file where the test results are stored
+$outputfile = "$env:USERPROFILE\internetspeed.csv" #CSV file where the test results are stored
 $testduration = 14 #in days
 $interval = 1 #wait and restart after $interval seconds
 $numberoftests = 1
