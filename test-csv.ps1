@@ -5,7 +5,7 @@
 $outputfile = ".\internetspeed.csv" #CSV file where the test results are stored
 $testduration = 14 #in days
 $interval = 1 #wait and restart after $interval seconds
-$numberoftests = $testduration*24*60*60/$interval #calculated based on $testduration and the $interval
+$numberoftests = 1
 
 #execution
 Write-Host "Running test every " $interval "seconds"
@@ -57,6 +57,3 @@ for($i = 0; $i -lt $numberoftests; $i++){
     Start-Sleep -Seconds $interval
 
 }
-
-
-
